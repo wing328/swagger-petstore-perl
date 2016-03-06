@@ -37,7 +37,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**User**](docs/User.md)| Created user object | [optional] 
+ **body** | [**User**](User.md)| Created user object | [optional] 
 
 ### Return type
 
@@ -79,7 +79,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**ARRAY[User]**](docs/User.md)| List of user object | [optional] 
+ **body** | [**ARRAY[User]**](User.md)| List of user object | [optional] 
 
 ### Return type
 
@@ -121,7 +121,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**ARRAY[User]**](docs/User.md)| List of user object | [optional] 
+ **body** | [**ARRAY[User]**](User.md)| List of user object | [optional] 
 
 ### Return type
 
@@ -291,7 +291,7 @@ if ($@) {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **username** | **string**| name that need to be deleted | 
- **body** | [**User**](docs/User.md)| Updated user object | [optional] 
+ **body** | [**User**](User.md)| Updated user object | [optional] 
 
 ### Return type
 

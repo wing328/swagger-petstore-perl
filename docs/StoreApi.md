@@ -157,7 +157,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Order**](docs/Order.md)| order placed for purchasing the pet | [optional] 
+ **body** | [**Order**](Order.md)| order placed for purchasing the pet | [optional] 
 
 ### Return type
 

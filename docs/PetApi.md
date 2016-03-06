@@ -40,7 +40,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Pet**](docs/Pet.md)| Pet object that needs to be added to the store | [optional] 
+ **body** | [**Pet**](Pet.md)| Pet object that needs to be added to the store | [optional] 
 
 ### Return type
 
@@ -82,7 +82,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Pet**](docs/Pet.md)| Pet object that needs to be added to the store | [optional] 
+ **body** | [**Pet**](Pet.md)| Pet object that needs to be added to the store | [optional] 
 
 ### Return type
 
@@ -124,7 +124,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **status** | [**ARRAY[string]**](docs/string.md)| Status values that need to be considered for query | [optional] [default to available]
+ **status** | [**ARRAY[string]**](string.md)| Status values that need to be considered for query | [optional] [default to available]
 
 ### Return type
 
@@ -166,7 +166,7 @@ if ($@) {
 ### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **tags** | [**ARRAY[string]**](docs/string.md)| Tags to filter by | [optional] 
+ **tags** | [**ARRAY[string]**](string.md)| Tags to filter by | [optional] 
 
 ### Return type
 
@@ -344,7 +344,7 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **pet_id** | **int**| ID of pet to update | 
  **additional_metadata** | **string**| Additional data to pass to server | [optional] 
- **file** | [**File**](docs/.md)| file to upload | [optional] 
+ **file** | [**File**](.md)| file to upload | [optional] 
 
 ### Return type
 

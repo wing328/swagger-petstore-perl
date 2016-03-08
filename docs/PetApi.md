@@ -38,24 +38,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **body** | [**Pet**](Pet.md)| Pet object that needs to be added to the store | [optional] 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: application/json, application/xml
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 
@@ -80,24 +77,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **body** | **string**| Pet object in the form of byte array | [optional] 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: application/json, application/xml
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 
@@ -123,8 +117,7 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **pet_id** | **int**| Pet id to delete | 
  **api_key** | **string**|  | [optional] 
 
@@ -132,16 +125,14 @@ Name | Type | Description  | Notes
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 
@@ -166,24 +157,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **status** | [**ARRAY[string]**](string.md)| Status values that need to be considered for query | [optional] [default to available]
 
 ### Return type
 
 [**ARRAY[Pet]**](Pet.md)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 
@@ -208,24 +196,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **tags** | [**ARRAY[string]**](string.md)| Tags to filter by | [optional] 
 
 ### Return type
 
 [**ARRAY[Pet]**](Pet.md)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 
@@ -250,24 +235,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **pet_id** | **int**| ID of pet that needs to be fetched | 
 
 ### Return type
 
 [**Pet**](Pet.md)
 
-### HTTP headers
+### Authorization
+
+[api_key](../README.md#api_key[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-api_keypetstore_auth
-
-
 
 
 
@@ -292,24 +274,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **pet_id** | **int**| ID of pet that needs to be fetched | 
 
 ### Return type
 
 [**InlineResponse200**](InlineResponse200.md)
 
-### HTTP headers
+### Authorization
+
+[api_key](../README.md#api_key[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-api_keypetstore_auth
-
-
 
 
 
@@ -334,24 +313,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **pet_id** | **int**| ID of pet that needs to be fetched | 
 
 ### Return type
 
 **string**
 
-### HTTP headers
+### Authorization
+
+[api_key](../README.md#api_key[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-api_keypetstore_auth
-
-
 
 
 
@@ -376,24 +352,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **body** | [**Pet**](Pet.md)| Pet object that needs to be added to the store | [optional] 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: application/json, application/xml
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 
@@ -420,8 +393,7 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **pet_id** | **string**| ID of pet that needs to be updated | 
  **name** | **string**| Updated name of the pet | [optional] 
  **status** | **string**| Updated status of the pet | [optional] 
@@ -430,16 +402,14 @@ Name | Type | Description  | Notes
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 
@@ -466,8 +436,7 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **pet_id** | **int**| ID of pet to update | 
  **additional_metadata** | **string**| Additional data to pass to server | [optional] 
  **file** | [**File**](.md)| file to upload | [optional] 
@@ -476,16 +445,14 @@ Name | Type | Description  | Notes
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+[petstore_auth](../README.md#petstore_auth
+
+### HTTP reuqest headers
 
  - **Content-Type**: multipart/form-data
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-petstore_auth
-
-
 
 
 

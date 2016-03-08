@@ -33,24 +33,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **order_id** | **string**| ID of the order that needs to be deleted | 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -75,24 +72,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **status** | **string**| Status value that needs to be considered for query | [optional] [default to placed]
 
 ### Return type
 
 [**ARRAY[Order]**](Order.md)
 
-### HTTP headers
+### Authorization
+
+[test_api_client_id](../README.md#test_api_client_id[test_api_client_secret](../README.md#test_api_client_secret
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-test_api_client_idtest_api_client_secret
-
-
 
 
 
@@ -116,23 +110,20 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+This endpoint does not need any parameter.
 
 ### Return type
 
 **HASH[string,int]**
 
-### HTTP headers
+### Authorization
+
+[api_key](../README.md#api_key
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-api_key
-
-
 
 
 
@@ -156,23 +147,20 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+This endpoint does not need any parameter.
 
 ### Return type
 
 **object**
 
-### HTTP headers
+### Authorization
+
+[api_key](../README.md#api_key
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-api_key
-
-
 
 
 
@@ -197,24 +185,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **order_id** | **string**| ID of pet that needs to be fetched | 
 
 ### Return type
 
 [**Order**](Order.md)
 
-### HTTP headers
+### Authorization
+
+[test_api_key_header](../README.md#test_api_key_header[test_api_key_query](../README.md#test_api_key_query
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-test_api_key_headertest_api_key_query
-
-
 
 
 
@@ -239,24 +224,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **body** | [**Order**](Order.md)| order placed for purchasing the pet | [optional] 
 
 ### Return type
 
 [**Order**](Order.md)
 
-### HTTP headers
+### Authorization
+
+[test_api_client_id](../README.md#test_api_client_id[test_api_client_secret](../README.md#test_api_client_secret
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-test_api_client_idtest_api_client_secret
-
-
 
 
 

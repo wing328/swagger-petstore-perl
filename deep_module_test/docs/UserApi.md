@@ -35,24 +35,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **body** | [**User**](User.md)| Created user object | [optional] 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -77,24 +74,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **body** | [**ARRAY[User]**](User.md)| List of user object | [optional] 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -119,24 +113,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **body** | [**ARRAY[User]**](User.md)| List of user object | [optional] 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -161,24 +152,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **username** | **string**| The name that needs to be deleted | 
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -203,24 +191,21 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **username** | **string**| The name that needs to be fetched. Use user1 for testing. | 
 
 ### Return type
 
 [**User**](User.md)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -246,8 +231,7 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **username** | **string**| The user name for login | [optional] 
  **password** | **string**| The password for login in clear text | [optional] 
 
@@ -255,16 +239,14 @@ Name | Type | Description  | Notes
 
 **string**
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -288,23 +270,20 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+This endpoint does not need any parameter.
 
 ### Return type
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 
@@ -330,8 +309,7 @@ if ($@) {
 ```
 
 ### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
+
  **username** | **string**| name that need to be deleted | 
  **body** | [**User**](User.md)| Updated user object | [optional] 
 
@@ -339,16 +317,14 @@ Name | Type | Description  | Notes
 
 void (empty response body)
 
-### HTTP headers
+### Authorization
+
+No authorization required
+
+### HTTP reuqest headers
 
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
 
 
 

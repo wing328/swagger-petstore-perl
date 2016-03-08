@@ -81,7 +81,7 @@ if ($@) {
 
 ### Authorization
 
-[test_api_client_id](../README.md#test_api_client_id[test_api_client_secret](../README.md#test_api_client_secret
+[test_api_client_id](../README.md#test_api_client_id)[test_api_client_secret](../README.md#test_api_client_secret)
 
 ### HTTP reuqest headers
 
@@ -118,7 +118,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[api_key](../README.md#api_key
+[api_key](../README.md#api_key)
 
 ### HTTP reuqest headers
 
@@ -155,7 +155,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[api_key](../README.md#api_key
+[api_key](../README.md#api_key)
 
 ### HTTP reuqest headers
 
@@ -194,7 +194,7 @@ if ($@) {
 
 ### Authorization
 
-[test_api_key_header](../README.md#test_api_key_header[test_api_key_query](../README.md#test_api_key_query
+[test_api_key_header](../README.md#test_api_key_header)[test_api_key_query](../README.md#test_api_key_query)
 
 ### HTTP reuqest headers
 
@@ -233,7 +233,7 @@ if ($@) {
 
 ### Authorization
 
-[test_api_client_id](../README.md#test_api_client_id[test_api_client_secret](../README.md#test_api_client_secret
+[test_api_client_id](../README.md#test_api_client_id)[test_api_client_secret](../README.md#test_api_client_secret)
 
 ### HTTP reuqest headers
 

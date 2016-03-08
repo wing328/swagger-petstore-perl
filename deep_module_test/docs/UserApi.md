@@ -36,6 +36,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **body** | [**User**](User.md)| Created user object | [optional] 
 
 ### Return type
@@ -75,6 +77,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **body** | [**ARRAY[User]**](User.md)| List of user object | [optional] 
 
 ### Return type
@@ -114,6 +118,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **body** | [**ARRAY[User]**](User.md)| List of user object | [optional] 
 
 ### Return type
@@ -153,6 +159,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **username** | **string**| The name that needs to be deleted | 
 
 ### Return type
@@ -192,6 +200,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **username** | **string**| The name that needs to be fetched. Use user1 for testing. | 
 
 ### Return type
@@ -232,6 +242,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **username** | **string**| The user name for login | [optional] 
  **password** | **string**| The password for login in clear text | [optional] 
 
@@ -310,6 +322,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **username** | **string**| name that need to be deleted | 
  **body** | [**User**](User.md)| Updated user object | [optional] 
 

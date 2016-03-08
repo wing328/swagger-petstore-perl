@@ -34,6 +34,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **order_id** | **string**| ID of the order that needs to be deleted | 
 
 ### Return type
@@ -73,6 +75,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **status** | **string**| Status value that needs to be considered for query | [optional] [default to placed]
 
 ### Return type
@@ -81,7 +85,7 @@ if ($@) {
 
 ### Authorization
 
-[test_api_client_id](../README.md#test_api_client_id)[test_api_client_secret](../README.md#test_api_client_secret)
+[test_api_client_id](../README.md#test_api_client_id), [test_api_client_secret](../README.md#test_api_client_secret)
 
 ### HTTP reuqest headers
 
@@ -186,6 +190,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **order_id** | **string**| ID of pet that needs to be fetched | 
 
 ### Return type
@@ -194,7 +200,7 @@ if ($@) {
 
 ### Authorization
 
-[test_api_key_header](../README.md#test_api_key_header)[test_api_key_query](../README.md#test_api_key_query)
+[test_api_key_header](../README.md#test_api_key_header), [test_api_key_query](../README.md#test_api_key_query)
 
 ### HTTP reuqest headers
 
@@ -225,6 +231,8 @@ if ($@) {
 
 ### Parameters
 
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
  **body** | [**Order**](Order.md)| order placed for purchasing the pet | [optional] 
 
 ### Return type
@@ -233,7 +241,7 @@ if ($@) {
 
 ### Authorization
 
-[test_api_client_id](../README.md#test_api_client_id)[test_api_client_secret](../README.md#test_api_client_secret)
+[test_api_client_id](../README.md#test_api_client_id), [test_api_client_secret](../README.md#test_api_client_secret)
 
 ### HTTP reuqest headers
 

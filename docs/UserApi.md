@@ -7,11 +7,11 @@ Method | HTTP request | Description
 [**create_user**](UserApi.md#create_user) | **POST** /user | Create user
 [**create_users_with_array_input**](UserApi.md#create_users_with_array_input) | **POST** /user/createWithArray | Creates list of users with given input array
 [**create_users_with_list_input**](UserApi.md#create_users_with_list_input) | **POST** /user/createWithList | Creates list of users with given input array
+[**delete_user**](UserApi.md#delete_user) | **DELETE** /user/{username} | Delete user
+[**get_user_by_name**](UserApi.md#get_user_by_name) | **GET** /user/{username} | Get user by user name
 [**login_user**](UserApi.md#login_user) | **GET** /user/login | Logs user into the system
 [**logout_user**](UserApi.md#logout_user) | **GET** /user/logout | Logs out current logged in user session
-[**get_user_by_name**](UserApi.md#get_user_by_name) | **GET** /user/{username} | Get user by user name
 [**update_user**](UserApi.md#update_user) | **PUT** /user/{username} | Updated user
-[**delete_user**](UserApi.md#delete_user) | **DELETE** /user/{username} | Delete user
 
 
 # **create_user**
@@ -140,6 +140,90 @@ No authentiation required
 
 
 
+# **delete_user**
+> delete_user(username => $username)
+
+Delete user
+
+This can only be done by the logged in user.
+
+### Example 
+```perl
+my $api = WWW::SwaggerClient::UserApi->new();
+my $username = 'username_example'; # [string] The name that needs to be deleted
+
+eval { 
+    $api->delete_user(username => $username);
+};
+if ($@) {
+    warn "Exception when calling delete_user: $@\n";
+}
+```
+
+### Parameters
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **username** | **string**| The name that needs to be deleted | 
+
+### Return type
+
+void (empty response body)
+
+### HTTP headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json, application/xml
+
+### Authentication scheme
+
+No authentiation required
+
+
+
+
+
+# **get_user_by_name**
+> User get_user_by_name(username => $username)
+
+Get user by user name
+
+
+
+### Example 
+```perl
+my $api = WWW::SwaggerClient::UserApi->new();
+my $username = 'username_example'; # [string] The name that needs to be fetched. Use user1 for testing.
+
+eval { 
+    my $result = $api->get_user_by_name(username => $username);
+};
+if ($@) {
+    warn "Exception when calling get_user_by_name: $@\n";
+}
+```
+
+### Parameters
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **username** | **string**| The name that needs to be fetched. Use user1 for testing. | 
+
+### Return type
+
+[**User**](User.md)
+
+### HTTP headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json, application/xml
+
+### Authentication scheme
+
+No authentiation required
+
+
+
+
+
 # **login_user**
 > string login_user(username => $username, password => $password)
 
@@ -224,48 +308,6 @@ No authentiation required
 
 
 
-# **get_user_by_name**
-> User get_user_by_name(username => $username)
-
-Get user by user name
-
-
-
-### Example 
-```perl
-my $api = WWW::SwaggerClient::UserApi->new();
-my $username = 'username_example'; # [string] The name that needs to be fetched. Use user1 for testing.
-
-eval { 
-    my $result = $api->get_user_by_name(username => $username);
-};
-if ($@) {
-    warn "Exception when calling get_user_by_name: $@\n";
-}
-```
-
-### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **username** | **string**| The name that needs to be fetched. Use user1 for testing. | 
-
-### Return type
-
-[**User**](User.md)
-
-### HTTP headers
-
- - **Content-Type**: Not defined
- - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
-
-
-
 # **update_user**
 > update_user(username => $username, body => $body)
 
@@ -292,48 +334,6 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **username** | **string**| name that need to be deleted | 
  **body** | [**User**](User.md)| Updated user object | [optional] 
-
-### Return type
-
-void (empty response body)
-
-### HTTP headers
-
- - **Content-Type**: Not defined
- - **Accept**: application/json, application/xml
-
-### Authentication scheme
-
-No authentiation required
-
-
-
-
-
-# **delete_user**
-> delete_user(username => $username)
-
-Delete user
-
-This can only be done by the logged in user.
-
-### Example 
-```perl
-my $api = WWW::SwaggerClient::UserApi->new();
-my $username = 'username_example'; # [string] The name that needs to be deleted
-
-eval { 
-    $api->delete_user(username => $username);
-};
-if ($@) {
-    warn "Exception when calling delete_user: $@\n";
-}
-```
-
-### Parameters
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **username** | **string**| The name that needs to be deleted | 
 
 ### Return type
 

@@ -1,6 +1,6 @@
 # Something::Deep::Object::User
 
-## Import the module
+## Load the model package
 ```perl
 use Something::Deep::Object::User;
 ```
@@ -16,5 +16,7 @@ Name | Type | Description | Notes
 **password** | **string** |  | [optional] 
 **phone** | **string** |  | [optional] 
 **user_status** | **int** | User Status | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

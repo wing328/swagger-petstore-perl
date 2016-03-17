@@ -1,14 +1,14 @@
-# Something::Deep::Object::SpecialModelName
+# WWW::SwaggerClient::Object::Model200Response
 
 ## Load the model package
 ```perl
-use Something::Deep::Object::SpecialModelName;
+use WWW::SwaggerClient::Object::Model200Response;
 ```
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**__special[property/name]** | **int** |  | [optional] 
+**name** | **int** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

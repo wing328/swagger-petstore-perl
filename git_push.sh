@@ -1,7 +1,7 @@
 #!/bin/sh
 # ref: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 #
-# /bin/sh git_push.sh wing328 swagger-petstore-perl "minor update"
+# Usage example: /bin/sh ./git_push.sh wing328 swagger-petstore-perl "minor update"
 
 git_user_id=$1
 git_repo_id=$2
@@ -13,7 +13,7 @@ if [ "$git_user_id" = "" ]; then
 fi
 
 if [ "$git_repo_id" = "" ]; then
-    git_repo_id="swagger-petstore-perl"
+    git_repo_id="petstore-perl"
     echo "[INFO] No command line input provided. Set \$git_repo_id to $git_repo_id"
 fi
 

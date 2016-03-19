@@ -1,4 +1,4 @@
-package WWW::SwaggerClient::Object::Name;
+package WWW::SwaggerClient::Object::Model200Response;
 
 require 5.6.0;
 use strict;
@@ -98,7 +98,7 @@ sub _deserialize {
 
 
 __PACKAGE__->class_documentation({description => '',
-                                  class => 'Name',
+                                  class => 'Model200Response',
                                   required => [], # TODO
 }                                 );
 
@@ -110,24 +110,15 @@ __PACKAGE__->method_documentation({
     	format => '',
     	read_only => '',
     		},
-    'snake_case' => {
-    	datatype => 'int',
-    	base_name => 'snake_case',
-    	description => '',
-    	format => '',
-    	read_only => '',
-    		},
     
 });
 
 __PACKAGE__->swagger_types( {
-    'name' => 'int',
-    'snake_case' => 'int'
+    'name' => 'int'
 } );
 
 __PACKAGE__->attribute_map( {
-    'name' => 'name',
-    'snake_case' => 'snake_case'
+    'name' => 'name'
 } );
 
 __PACKAGE__->mk_accessors(keys %{__PACKAGE__->attribute_map});
